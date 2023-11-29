@@ -10,6 +10,7 @@ document.addEventListener("DOMContentLoaded", () => {
     const pubnub = new PubNub({
       publishKey: 'pub-c-d8e5e5ee-1234-47e1-8986-4fb7f1a7e6f1',
       subscribeKey: 'sub-c-cd13ae42-d352-4daf-927e-cead3be9595d',
+      uuid: crypto.randomUUID(),
     });
     
   
